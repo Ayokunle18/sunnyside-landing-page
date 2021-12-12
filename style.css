@@ -176,15 +176,51 @@ font-weight: 500;
   font-size: 15px;
 }
 
-/* .cherry {
-  background-image: url("images/desktop/image-graphic-design.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
+.testimonials{
+  height: 90vh;
+  background-color: hsl(0, 52%, 94%);
 }
-.orange {
-  background-image: url("images/desktop/image-photography.jpg");
-  /* background-size: 100%;
-  background-repeat: no-repeat; */
+.testimonials h4{
+  text-align: center;
+  padding-top: 6%;
+  font-size: 20px;
+  padding-bottom: 5%;
+  font-family: 'Fraunces', serif;
+}
+.testimonial_box{
+  padding-inline: 10%;
+  display: flex;
+  flex-direction: row;
+}
+.t_boxes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-inline: 1.8%;
+}
+.t_boxes img{
+  width:20%;
+  border-radius: 50px;
+}
+.t_boxes p{
+  padding-top: 12%;
+  padding-bottom: 14%;
+  font-size: 17px;
+  font-family: 'Barlow', sans-serif;
+  line-height: 25px;
+}
+.t_boxes b{
+  padding-bottom: 2%;
+  font-size: 19px;
+  font-family: 'Fraunces', serif;
+}
+.t_boxes h6{
+  font-family: 'Barlow', sans-serif;
+  font-size: 12px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
