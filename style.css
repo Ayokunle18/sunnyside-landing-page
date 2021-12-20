@@ -680,6 +680,15 @@ body {
     margin-top: 29%;
   }
 }
+@media (max-width: 390px) {
+  .orange .ctext {
+    top: 390%;
+  }
+  .cherry .ctext {
+    top: 340%;
+  }
+}
+
 @media (max-width: 340px) {
   .dropdown_contents {
     padding: 20px 100px;
